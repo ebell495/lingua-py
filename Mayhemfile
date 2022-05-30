@@ -1,8 +1,7 @@
 project: linguapy
-target: linguapy
+target: fuzz
 
-image: ghcr.io/ebell495/lingua-py:latest
-duration: 300
+tests: null
 
 cmds:
     - cmd: fuzz/fuzz.py -rss_limit_mb=4096
