@@ -1,6 +1,6 @@
 project: linguapy
-target: fuzz
+target: detect-language-fuzz
 
 cmds:
-    - cmd: fuzz/fuzz.py -rss_limit_mb=4096
+    - cmd: fuzz/detect-language-fuzz.py -rss_limit_mb=4096
       libfuzzer: true 
